@@ -1,0 +1,32 @@
+nav
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:500;
+  color: #755BB4;
+  background-color: #222327;
+  display:inline-block;
+  margin: -8px 0px 0px -8px;
+  width: 100%;
+}
+
+#slogo
+{
+  margin-left: 20px;
+}
+
+ul
+{
+  display: inline;
+  float: right;
+  width: 40%;
+}
+
+li
+{
+  
+  font-size: 1.5em;
+  display: inline;
+  text-align: center;
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+}
