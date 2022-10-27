@@ -1,12 +1,16 @@
+body
+{
+  background-color: #222327;
+}
+
 nav
 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight:500;
-  color: #755BB4;
   background-color: #222327;
+  color: #755BB4;
   display:inline-block;
   margin: -8px 0px 0px -8px;
   width: 100%;
+  border-bottom: #9480C1 solid 2px;
 }
 
 #slogo
@@ -16,17 +20,23 @@ nav
 
 ul
 {
-  display: inline;
   float: right;
-  width: 40%;
+  width: 60%;
+  list-style-type: none;
 }
 
-li
+nav ul li
 {
-  
-  font-size: 1.5em;
   display: inline;
-  text-align: center;
   width: 100%;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 10px 0px 10px;  
+}
+
+nav ul li a
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #755BB4;
+  font-size: 1.4em;
+  text-decoration: none;
 }
