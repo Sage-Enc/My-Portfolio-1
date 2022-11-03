@@ -46,6 +46,7 @@ nav ul li a
 #banner
 {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-bottom: #9480C1 solid 1px;
 }
 
 #lbanner, #rbanner
