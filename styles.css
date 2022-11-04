@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 body
 {
   background-color: #222327;
+  font-family:'Source Code Pro', monospace;
 }
 
 nav
@@ -45,7 +48,6 @@ nav ul li a
 
 #banner
 {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-bottom: #9480C1 solid 1px;
 }
 
@@ -63,18 +65,16 @@ nav ul li a
 #lbanner h2
 {
   color: #9480C1;
-  font-size: 5em;
-  padding: 0px 0px 0px 0px;
-}
-
-#lbanner h5, #lbanner p
-{
-  color: whitesmoke;
-  font-size: 1.2em;
+  font-size: 6em;
+  margin: 0px 0px 20px 0px;
 }
 
 #lbanner p
 {
+  color: whitesmoke;
+  font-size: 2.5em;
+  margin: 0px;
+  margin-bottom: 20px;
   font-weight: 900;
 }
 
@@ -92,4 +92,121 @@ nav ul li a
 {
   display: inline-block;
   padding-left:70px;
+}
+
+#aboutme
+{
+  width: 100%;
+  /* margin: 20px; */
+  border-bottom: 1px solid #9480C1;
+  overflow-y:auto;
+}
+
+#aboutme h2
+{
+  color: #9480C1;
+  text-align: center;
+  font-size: 2.5em;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: white solid 1px;
+}
+
+#aboutme #labout
+{
+  width: 26%;
+  float: left;
+}
+
+#aboutme #labout img
+{
+  width: 380px;
+  text-align: left;
+  margin-top: 200px;
+}
+
+#aboutme #rabout
+{
+  width: 59%;
+  float: left;
+  color: white;
+  font-size: 1.8em;
+  text-align: justify;
+}
+
+#aboutme #rabout h3
+{
+  font-size: 1.2em;
+  color: #9480C1;
+  border-bottom: white solid 1px;
+}
+
+#aboutme #rabout ul
+{
+  float: left;
+  margin: 0;
+  width: 100%;
+  list-style: square;
+  margin-bottom: 30px;
+}
+
+#aboutme #rabout li
+{
+  margin: 5px;
+}
+
+#skill
+{
+  width: 100%;
+}
+
+#skill h2
+{
+  color: #9480C1;
+  text-align: center;
+  font-size: 2.5em;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: white solid 1px;
+}
+
+#skill #lskill
+{
+  float: left;
+  color: white;
+  font-size: 1.8em;
+  width: 70%;
+  float: left;
+}
+
+#skill #lskill ul
+{
+  font-size: 1em;
+  float: right;
+  margin-right: 28%;
+  width: 50%;
+}
+
+#skill #lskill p
+{
+  background-color: #9480C1;
+  font-size: 0.6em;
+  color: black;
+  font-weight: 600;
+}
+
+#skill #rskill
+{
+  width: 30%;
+  float: right;
+}
+
+#skill #rskill img
+{
+  margin-top: 50px;
+  width: 380px;
 }
