@@ -114,20 +114,19 @@ nav ul li a
   border-bottom: white solid 1px;
 }
 
-#aboutme #labout
+#aboutme #labout , #education #ledu
 {
   width: 26%;
   float: left;
 }
 
-#aboutme #labout img
+#aboutme #labout img , #education #ledu img
 {
   width: 380px;
-  text-align: left;
-  margin-top: 200px;
+  margin-top: 160px;
 }
 
-#aboutme #rabout
+#aboutme #rabout, #education #redu
 {
   width: 59%;
   float: left;
@@ -157,12 +156,14 @@ nav ul li a
   margin: 5px;
 }
 
-#skill
+#skill , #education , #certificate
 {
   width: 100%;
+  border-bottom: 1px solid #9480C1;
+  overflow-y: auto;
 }
 
-#skill h2
+#skill h2 , #education h2 , #certificate h2
 {
   color: #9480C1;
   text-align: center;
@@ -195,8 +196,10 @@ nav ul li a
 {
   background-color: #9480C1;
   font-size: 0.6em;
-  color: black;
-  font-weight: 600;
+  color: white;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: right;
 }
 
 #skill #rskill
@@ -207,6 +210,93 @@ nav ul li a
 
 #skill #rskill img
 {
-  margin-top: 50px;
+  margin-top: 60px;
   width: 380px;
+}
+
+#education #redu h3
+{
+  color: #9480C1;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#education #redu h5
+{
+  margin: 32px 0px 0px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+#education #redu p
+{
+  margin: 0px 0px 40px 0px;
+  font-size: 1em;
+}
+
+#certificate #tcerti
+{
+  width: 100%;
+}
+
+#certificate #tcerti img
+{
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+
+#certificate #bcerti
+{
+  width: 90%;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+#certificate #bcerti ul
+{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+#certificate #bcerti ul li
+{
+  display: inline-block;
+  width: 440px;
+  margin: 0 auto;
+}
+
+#certificate #bcerti ul li img
+{
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+#certificate #bcerti ul li button
+{
+  width: 320px;
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #755BB4;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  border: none;
+  border-radius: 12px;;
+  padding: 10px;
+}
+
+#certificate #bcerti ul li button a:link,
+#certificate #bcerti ul li button a:visited,
+#certificate #bcerti ul li button a:link,
+#certificate #bcerti ul li button a:link
+{
+  color: white;
+  text-decoration: none;
 }
