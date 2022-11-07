@@ -1,11 +1,14 @@
+/* Importing Font Style/Family from Google Fonts in next line*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
+/* Full Body Style is Set Here */
 body
 {
   background-color: #222327;
   font-family:'Source Code Pro', monospace;
 }
 
+/* Navigation Bar Style is Set Here */
 nav
 {
   background-color: #222327;
@@ -16,11 +19,12 @@ nav
   border-bottom: #9480C1 solid 1px;
 }
 
+/* Site Logo img Style is Set Here */
 #slogo
 {
   margin-left: 20px;
 }
-
+/* Navigation Bar: Unordered List Style is Set Here */
 ul
 {
   float: right;
@@ -29,6 +33,7 @@ ul
   margin-top: 25px;
 }
 
+/* Navigation Bar: Unordered List: List Style is Set Here */
 nav ul li
 {
   display: inline;
@@ -37,6 +42,7 @@ nav ul li
   width: 25px; 
 }
 
+/* Navigation Bar: Unordered List: List: Link Style is Set Here */
 nav ul li a
 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -46,22 +52,26 @@ nav ul li a
   text-decoration: none;
 }
 
+/* Banner Section Style is Set Here */
 #banner
 {
   border-bottom: #9480C1 solid 1px;
 }
 
+/* Banner: Right & Left Section Style is Set Here */
 #lbanner, #rbanner
 {
   display: inline-block;
 }
 
+/* Banner: Left Section Style is Set Here */
 #lbanner
 {
   width: 60%;
   padding-left: 50px;
 }
 
+/* Banner: Left Section: Heading Style is Set Here */
 #lbanner h2
 {
   color: #9480C1;
@@ -69,6 +79,7 @@ nav ul li a
   margin: 0px 0px 20px 0px;
 }
 
+/* Banner: Left Section: Paragraph Style is Set Here */
 #lbanner p
 {
   color: whitesmoke;
@@ -78,31 +89,40 @@ nav ul li a
   font-weight: 900;
 }
 
+/* Banner: Right Section Style is Set Here */
 #rbanner
 {
   display: 40%;
 }
 
+/* Banner: Right Section: Img Style is Set Here */
 #rbanner img
 {
-  width: 380px;
+  width: 320px;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 120px;
+  margin-top: 30px;
 }
 
-#banner #hibit
+/* For Bitmoji */
+/* #rbanner img
 {
+  width: 380px;
   display: inline-block;
   padding-left:70px;
-}
+} */
 
-#aboutme
+/* About && Skill && Education && Certificate && Contact Section Style is Set Here */
+#aboutme , #skill , #education , #certificate , #contact
 {
   width: 100%;
-  /* margin: 20px; */
   border-bottom: 1px solid #9480C1;
   overflow-y:auto;
 }
 
-#aboutme h2
+/* About && Skill && Education && Certificate && Contact Section: Heading Style is Set Here */
+#aboutme h2 , #skill h2 , #education h2 , #certificate h2 , #contact h2
 {
   color: #9480C1;
   text-align: center;
@@ -114,19 +134,22 @@ nav ul li a
   border-bottom: white solid 1px;
 }
 
-#aboutme #labout , #education #ledu
+/* About Section && Education Section && Contact Section: Left Section Style is Set Here */
+#aboutme #labout , #education #ledu , #contact #lcontact
 {
   width: 26%;
   float: left;
 }
 
-#aboutme #labout img , #education #ledu img
+/* About Section && Education Section && Contact Section: Left Section: Img Style is Set Here */
+#aboutme #labout img , #education #ledu img , #contact #lcontact img
 {
   width: 380px;
   margin-top: 160px;
 }
 
-#aboutme #rabout, #education #redu
+/* About Section && Education Section && Contact Section: Right Section Style is Set Here */
+#aboutme #rabout, #education #redu , #contact #rcontact
 {
   width: 59%;
   float: left;
@@ -135,6 +158,7 @@ nav ul li a
   text-align: justify;
 }
 
+/* About Section: Right Section: Sub-Heading Style is Set Here */
 #aboutme #rabout h3
 {
   font-size: 1.2em;
@@ -142,6 +166,7 @@ nav ul li a
   border-bottom: white solid 1px;
 }
 
+/* About Section: Right Section: Unordered-List Style is Set Here */
 #aboutme #rabout ul
 {
   float: left;
@@ -151,30 +176,13 @@ nav ul li a
   margin-bottom: 30px;
 }
 
-#aboutme #rabout li
+/* About Section: Right Section: ul: List Style is Set Here */
+#aboutme #rabout ul li
 {
   margin: 5px;
 }
 
-#skill , #education , #certificate
-{
-  width: 100%;
-  border-bottom: 1px solid #9480C1;
-  overflow-y: auto;
-}
-
-#skill h2 , #education h2 , #certificate h2
-{
-  color: #9480C1;
-  text-align: center;
-  font-size: 2.5em;
-  width: 70%;
-  margin: 0 auto;
-  margin-top: 20px;
-  padding-bottom: 5px;
-  border-bottom: white solid 1px;
-}
-
+/* Skill Section: Left Section Style is Set Here */
 #skill #lskill
 {
   float: left;
@@ -184,6 +192,7 @@ nav ul li a
   float: left;
 }
 
+/* Skill Section: Left Section: Unordered List Style is Set Here */
 #skill #lskill ul
 {
   font-size: 1em;
@@ -192,6 +201,7 @@ nav ul li a
   width: 50%;
 }
 
+/* Skill Section: Left Section: Paragraph Style is Set Here */
 #skill #lskill p
 {
   background-color: #9480C1;
@@ -202,18 +212,21 @@ nav ul li a
   text-align: right;
 }
 
+/* Skill Section: Right Section Style is Set Here */
 #skill #rskill
 {
   width: 30%;
   float: right;
 }
 
+/* Skill Section: Right Section: Img Style is Set Here */
 #skill #rskill img
 {
   margin-top: 60px;
   width: 380px;
 }
 
+/* Education Section: Right Section: Sub-Heading Style is Set Here */
 #education #redu h3
 {
   color: #9480C1;
@@ -221,6 +234,7 @@ nav ul li a
   margin: 0;
 }
 
+/* Education Section: Right Section: Degree Name Style is Set Here */
 #education #redu h5
 {
   margin: 32px 0px 0px 0px;
@@ -228,17 +242,20 @@ nav ul li a
   font-weight: lighter;
 }
 
+/* Education Section: Right Section: Paragraph Style is Set Here */
 #education #redu p
 {
   margin: 0px 0px 40px 0px;
   font-size: 1em;
 }
 
+/* Certificate Section: Top Section Style is Set Here */
 #certificate #tcerti
 {
   width: 100%;
 }
 
+/* Certificate Section: Top Section: Img Style is Set Here */
 #certificate #tcerti img
 {
   display: block;
@@ -246,6 +263,7 @@ nav ul li a
   margin: 0 auto;
 }
 
+/* Certificate Section: Bottom Section Style is Set Here */
 #certificate #bcerti
 {
   width: 90%;
@@ -253,6 +271,7 @@ nav ul li a
   overflow-y: auto;
 }
 
+/* Certificate Section: Bottom Section: Unordered List Style is Set Here */
 #certificate #bcerti ul
 {
   display: block;
@@ -262,6 +281,7 @@ nav ul li a
   padding: 0;
 }
 
+/* Certificate Section: Bottom Section: ul: List Style is Set Here */
 #certificate #bcerti ul li
 {
   display: inline-block;
@@ -269,6 +289,7 @@ nav ul li a
   margin: 0 auto;
 }
 
+/* Certificate Section: Bottom Section: ul: List: Img Style is Set Here */
 #certificate #bcerti ul li img
 {
   width: 350px;
@@ -276,6 +297,7 @@ nav ul li a
   margin: 0 auto;
 }
 
+/* Certificate Section: Bottom Section: ul: List: Button Style is Set Here */
 #certificate #bcerti ul li button
 {
   width: 320px;
@@ -284,7 +306,6 @@ nav ul li a
   margin: 0 auto;
   margin-top: 20px;
   background-color: #755BB4;
-  color: white;
   font-size: 1.2em;
   text-align: center;
   border: none;
@@ -292,10 +313,11 @@ nav ul li a
   padding: 10px;
 }
 
+/* Certificate Section: Bottom Section: ul: List: Button: Link Style is Set Here */
 #certificate #bcerti ul li button a:link,
 #certificate #bcerti ul li button a:visited,
-#certificate #bcerti ul li button a:link,
-#certificate #bcerti ul li button a:link
+#contact #rcontact button a:link,
+#contact #rcontact button a:visited
 {
   color: white;
   text-decoration: none;
